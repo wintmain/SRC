@@ -2,7 +2,7 @@ package com.wintmain.ds.sorts;
 
 public class BubbleSort{
     static <T extends Comparable<T>> boolean greater(T v,T w){
-        /* 检查第一个元素是不是比其他的都大 */
+        /* 检查第一个元素是不是比第二个大 */
         return v.compareTo(w)>0;
     }
 
